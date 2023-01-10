@@ -1,0 +1,36 @@
+9. В треугольнике  АВС  измерены три стороны a = 122.57 ± 0.06 м b = 161.85 ± 0.07 м и с = 106.28 ± 0.04.  Вычислить среднюю квадратическую погрешность угла  А и выразить её в секундах.  
+Дано:
+</br> a = 122.57 м
+</br> b = 161.85 м
+</br> с = 106.28 м
+</br> <img src="https://latex.codecogs.com/svg.image?m_{a}=0.06" title="m_{a}=0.06" /> м
+</br> <img src="https://latex.codecogs.com/svg.image?m_{b}=0.07" title="m_{b}=0.07" /> м
+</br> <img src="https://latex.codecogs.com/svg.image?m_{c}=0.04" title="m_{c}=0.04" /> м  
+Найти:
+</br> <img src="https://latex.codecogs.com/svg.image?m_{\angle&space;A}" title="m_{\angle A}" />  
+Решение:
+</br> <img src="https://latex.codecogs.com/svg.image?m_{\angle&space;A}^{2}=\left&space;(&space;\frac{\partial&space;\angle&space;A}{\partial&space;a}&space;\right&space;)^{2}\cdot&space;m_{a}^{2}&plus;\left&space;(&space;\frac{\partial&space;\angle&space;A}{\partial&space;b}&space;\right&space;)^{2}\cdot&space;m_{b}^{2}&plus;\left&space;(&space;\frac{\partial&space;\angle&space;A}{\partial&space;c}&space;\right&space;)^{2}\cdot&space;m_{c}^{2}" title="m_{\angle A}^{2}=\left ( \frac{\partial \angle A}{\partial a} \right )^{2}\cdot m_{a}^{2}+\left ( \frac{\partial \angle A}{\partial b} \right )^{2}\cdot m_{b}^{2}+\left ( \frac{\partial \angle A}{\partial c} \right )^{2}\cdot m_{c}^{2}" />
+</br> <img src="https://latex.codecogs.com/svg.image?a^{2}=b^{2}&plus;c^{2}-2\cdot&space;b\cdot&space;c\cdot&space;cos(\angle&space;A)" title="a^{2}=b^{2}+c^{2}-2\cdot b\cdot c\cdot cos(\angle A)" />
+</br> <img src="https://latex.codecogs.com/svg.image?\angle&space;A=arccos\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)" title="\angle A=arccos\left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )" />
+</br> <img src="https://latex.codecogs.com/svg.image?\frac{\partial&space;\angle&space;A}{\partial&space;a}=\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{a}{b\cdot&space;c}" title="\frac{\partial \angle A}{\partial a}=\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{a}{b\cdot c}" />
+</br> <img src="https://latex.codecogs.com/svg.image?\frac{\partial&space;\angle&space;A}{\partial&space;b}=-\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{2\cdot&space;b^{2}\cdot&space;c-c\cdot&space;(b^{2}&plus;c^{2}-a^{2})}{2\cdot&space;b^{2}\cdot&space;c^{2}}" title="\frac{\partial \angle A}{\partial b}=-\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{2\cdot b^{2}\cdot c-c\cdot (b^{2}+c^{2}-a^{2})}{2\cdot b^{2}\cdot c^{2}}" />
+</br> <img src="https://latex.codecogs.com/svg.image?\frac{\partial&space;\angle&space;A}{\partial&space;c}=-\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{2\cdot&space;b\cdot&space;c^{2}-b\cdot&space;(b^{2}&plus;c^{2}-a^{2})}{2\cdot&space;b^{2}\cdot&space;c^{2}}" title="\frac{\partial \angle A}{\partial c}=-\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{2\cdot b\cdot c^{2}-b\cdot (b^{2}+c^{2}-a^{2})}{2\cdot b^{2}\cdot c^{2}}" />
+</br> <img src="https://latex.codecogs.com/svg.image?m_{\angle&space;A}^{2}=\left&space;(&space;\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{a}{b\cdot&space;c}&space;\right&space;)^{2}\cdot&space;m_{a}^{2}&plus;\left&space;(&space;-\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{2\cdot&space;b^{2}\cdot&space;c-c\cdot&space;(b^{2}&plus;c^{2}-a^{2})}{2\cdot&space;b^{2}\cdot&space;c^{2}}&space;\right&space;)^{2}\cdot&space;\cdot&space;m_{b}^{2}&plus;\left&space;(&space;-\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{2\cdot&space;b\cdot&space;c^{2}-b\cdot&space;(b^{2}&plus;c^{2}-a^{2})}{2\cdot&space;b^{2}\cdot&space;c^{2}}&space;\right&space;)^{2}\cdot&space;m_{c}^{2}" title="m_{\angle A}^{2}=\left ( \frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{a}{b\cdot c} \right )^{2}\cdot m_{a}^{2}+\left ( -\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{2\cdot b^{2}\cdot c-c\cdot (b^{2}+c^{2}-a^{2})}{2\cdot b^{2}\cdot c^{2}} \right )^{2}\cdot \cdot m_{b}^{2}+\left ( -\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{2\cdot b\cdot c^{2}-b\cdot (b^{2}+c^{2}-a^{2})}{2\cdot b^{2}\cdot c^{2}} \right )^{2}\cdot m_{c}^{2}" />
+</br> <img src="https://latex.codecogs.com/svg.image?m_{\angle&space;A}=\sqrt{\left&space;(&space;\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{a}{b\cdot&space;c}&space;\right&space;)^{2}\cdot&space;m_{a}^{2}&plus;\left&space;(&space;-\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{2\cdot&space;b^{2}\cdot&space;c-c\cdot&space;(b^{2}&plus;c^{2}-a^{2})}{2\cdot&space;b^{2}\cdot&space;c^{2}}&space;\right&space;)^{2}\cdot&space;m_{b}^{2}&plus;\left&space;(&space;-\frac{1}{\sqrt{1-&space;\left&space;(&space;\frac{b^{2}&plus;c^{2}-a^{2}}{2\cdot&space;b\cdot&space;c}&space;\right&space;)^{2}}}\cdot&space;\frac{2\cdot&space;b\cdot&space;c^{2}-b\cdot&space;(b^{2}&plus;c^{2}-a^{2})}{2\cdot&space;b^{2}\cdot&space;c^{2}}&space;\right&space;)^{2}\cdot&space;m_{c}^{2}}" title="m_{\angle A}=\sqrt{\left ( \frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{a}{b\cdot c} \right )^{2}\cdot m_{a}^{2}+\left ( -\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{2\cdot b^{2}\cdot c-c\cdot (b^{2}+c^{2}-a^{2})}{2\cdot b^{2}\cdot c^{2}} \right )^{2}\cdot m_{b}^{2}+\left ( -\frac{1}{\sqrt{1- \left ( \frac{b^{2}+c^{2}-a^{2}}{2\cdot b\cdot c} \right )^{2}}}\cdot \frac{2\cdot b\cdot c^{2}-b\cdot (b^{2}+c^{2}-a^{2})}{2\cdot b^{2}\cdot c^{2}} \right )^{2}\cdot m_{c}^{2}}" />
+</br> <img src="https://latex.codecogs.com/svg.image?m_{\angle&space;A}=155.108''&space;" title="m_{\angle A}=155.108'' " />  
+Ответ: 155.108".
+```C++
+/*Copyright 2022 by Nikolay Nahel*/
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+int main()
+{
+    double a = 122.57, b = 161.85, c = 106.28, ma = 0.06, mb = 0.07, mc = 0.04;
+    double deltaC_a2 = 1/(1-pow((b*b+c*c-a*a)/(2*b*c),2))*pow(a/(b*c),2);
+    double deltaC_b2 = 1/(1-pow((b*b+c*c-a*a)/(2*b*c),2))*pow(((2*b*b*c-c*(b*b+c*c-a*a))/(2*b*b*c*c)),2);
+    double deltaC_c2 = 1/(1-pow((b*b+c*c-a*a)/(2*b*c),2))*pow(((2*c*c*b-b*(b*b+c*c-a*a))/(2*b*b*c*c)),2);
+    cout << 206265*sqrt(deltaC_a2*ma*ma+deltaC_b2*mb*mb+deltaC_c2*mc*mc) << "\"";
+}
+```
